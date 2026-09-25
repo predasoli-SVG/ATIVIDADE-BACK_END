@@ -87,10 +87,10 @@ console.log(`O jogo ${jogo.nome} roda na plataforma ${jogo.plataforma} e pertenc
 console.log()
 
 // ex9
-let conta = {
-    usuario: "eduardo",
-    senha: "1234",
-    nivel: "administrador"
+let conta= {
+    nome: "eduardo",
+    cidade: "Guarulhos",
+    turno: "manhã"
 }
 console.log(conta)
 console.log(`O usuário ${conta.usuario} possui nível ${conta.nivel} e utiliza a senha ${conta.senha}, muito fraca por sinal.`)
@@ -107,3 +107,18 @@ console.log(`A escola ${escola.nome} funciona na cidade de ${escola.cidade} no t
 console.log()
 
 // NÃO SEI QUAL JEITO ERA PARA FAZER PROFESSOR, ENTÃO FIZ METADE DE 1 JEITO E OUTRA METADE DE OUTRA!!!!
+
+// ex10 power/ nova
+let CDU = {
+usuario: "eduardo",
+senha: "1234",
+nome: "Eduardo Silva",
+email: "eduardo@email.com",
+nivel: "administrador",
+curso: "Desenvolvimento de Sistemas",
+turman: "DS 2",
+idade: 18
+
+}
+
+console.log(`O usuário ${contaUsuario.usuario}, de ${contaUsuario.idade} anos, está matriculado no curso de ${contaUsuario.curso}, turma ${contaUsuario.turma}. Seu nível de acesso é ${contaUsuario.nivel} e seu e-mail é ${contaUsuario.email}. A senha cadastrada é ${contaUsuario.senha}.`)
