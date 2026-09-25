@@ -121,14 +121,14 @@ idade: 18
 
 }
 
-console.log("Nome do usuário:", contaUsuario.usuario)
-console.log("Nome completo:", contaUsuario.nome)
-console.log("E-mail:", contaUsuario.email)
-console.log("Curso:", contaUsuario.curso)
-console.log("Turma:", contaUsuario.turma)
-console.log("Idade:", contaUsuario.idade)
-console.log("Nível de acesso:", contaUsuario.nivel)
-console.log("Senha:", contaUsuario.senha)
+console.log("Nome do usuário:", CDU.usuario)
+console.log("Nome completo:", CDU.nome)
+console.log("E-mail:", CDU.email)
+console.log("Curso:", CDU.curso)
+console.log("Turma:", CDU.turma)
+console.log("Idade:", CDU.idade)
+console.log("Nível de acesso:", CDU.nivel)
+console.log("Senha:", CDU.senha)
 console.log() 
 
-console.log(`O usuário ${contaUsuario.usuario}, de ${contaUsuario.idade} anos, está matriculado no curso de ${contaUsuario.curso}, turma ${contaUsuario.turma}. Seu nível de acesso é ${contaUsuario.nivel} e seu e-mail é ${contaUsuario.email}. A senha cadastrada é ${contaUsuario.senha}.`)
+console.log(`O usuário ${CDU.usuario}, de ${CDU.idade} anos, está matriculado no curso de ${CDU.curso}, turma ${CDU.turma}. Seu nível de acesso é ${CDU.nivel} e seu e-mail é ${CDU.email}. A senha cadastrada é ${CDU.senha}.`)
